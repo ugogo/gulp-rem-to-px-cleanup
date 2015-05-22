@@ -1,0 +1,26 @@
+{
+  "name": "gulp-rem-to-px-cleanup",
+  "version": "0.0.1",
+  "description": "Create a stylesheets with only rem values converted",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ugogo/gulp-rem-to-px-cleanup.git"
+  },
+  "keywords": [
+    "gulp",
+    "rem",
+    "px",
+    "clean",
+    "cleanup"
+  ],
+  "author": "Ugo Onali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ugogo/gulp-rem-to-px-cleanup/issues"
+  },
+  "homepage": "https://github.com/ugogo/gulp-rem-to-px-cleanup"
+}
