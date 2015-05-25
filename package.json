@@ -1,6 +1,6 @@
 {
   "name": "gulp-rem-to-px-cleanup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create a stylesheets with only rem values converted",
   "main": "index.js",
   "scripts": {
