@@ -5,7 +5,7 @@ var rename = require('gulp-rename');
 gulp.task('default', function () {
 	gulp.src(['app.css', 'app_2.css'])
 		.pipe(remToPx({
-			baseFontSize: 2
+			baseFontSize: 14
 		}))
 		.pipe(rename({
 			suffix: '-ie'

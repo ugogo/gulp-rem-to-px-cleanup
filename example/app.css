@@ -1,47 +1,41 @@
+.Component {
+  width: 40rem;
+  height: 20px;
+  margin: 0 auto;
+}
 
-  .has-tooltip:before {
-    position: absolute;
-    top: 50%;
-    right: 100%;
-    content: "";
-    display: none;
-    border-width: 0.33333rem 0 0.33333rem 0.33333rem;
-    border-color: transparent transparent transparent #a1a9ae;
-    border-style: solid;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
-  .has-tooltip:hover:before, .has-tooltip:hover:after {
-    display: block; }
+.Component-child {
+  padding: 0 2rem;
+  background-color: blue;
+}
 
-@media screen and only truc(40rem) {
-  .a {
-    display: block; }
-    .b {
-      display: 5rem; }
+.OtherComponent {
+  display: inline-block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 30rem) {
+  .Component {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .Component-child {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    width: 1rem;}
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-    width: 2rem; } }
-
 @keyframes spin {
   0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+    width: 1rem;
+  }
 
   100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-
-.Icon--xxl {
-  font-size: 1.8rem;
-  line-height: 1.8rem; }
+    transform: rotate(360deg);
+    width: 2rem;
+  }
+}

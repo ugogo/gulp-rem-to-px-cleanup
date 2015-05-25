@@ -1,24 +1,23 @@
-.has-tooltip:before {
-  border-width: 0.66666px 0 0.66666px 0.66666px;
+.Component {
+  width: 560px;
 }
 
-.Icon--xxl {
-  font-size: 3.6px;
-  line-height: 3.6px;
+.Component-child {
+  padding: 0 28px;
 }
 
-@media screen and only truc(80px) {
-  .b {
-    display: 10px;
+@media screen and (max-width: 420px) {
+  .Component {
+    padding: 14px;
   }
 }
 
-@-webkit-keyframes spin {
+@keyframes spin {
   0% {
-    width: 2px;
+    width: 14px;
   }
 
   100% {
-    width: 4px;
+    width: 28px;
   }
 }
