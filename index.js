@@ -1,6 +1,5 @@
 var gutil = require('gulp-util');
 var through = require('through2');
-var utils = require('uo-node-utils');
 var remToPx = require('rem-to-px-cleanup');
 var PluginError = gutil.PluginError;
 

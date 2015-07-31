@@ -3,7 +3,7 @@ var remToPx = require('../index.js');
 var rename = require('gulp-rename');
 
 gulp.task('default', function () {
-	gulp.src(['app.css', 'app_2.css'])
+	gulp.src('app.css')
 		.pipe(remToPx({
 			baseFontSize: 14
 		}))
